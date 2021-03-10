@@ -54,7 +54,7 @@ int main()
 		mov eax, d
 		cdq
 		imul x
-		div e
+		idiv e
 		add ebx, eax
 		mov asm_ans, ebx
 	}
